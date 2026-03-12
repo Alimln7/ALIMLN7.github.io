@@ -13,9 +13,9 @@
 
   /* ── Config ─────────────────────────────────── */
   const CFG = {
-    count: 80,            // number of particles
-    maxSize: 2.5,         // max particle radius
-    minSize: 0.5,         // min particle radius
+    count: 120,           // number of particles
+    maxSize: 3,           // max particle radius
+    minSize: 0.8,         // min particle radius
     speed: 0.3,           // base movement speed
     linkDist: 150,        // max distance to draw connection lines
     linkWidth: 0.6,       // connection line width
