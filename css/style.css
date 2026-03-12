@@ -965,9 +965,9 @@ h3 {
 
 .project-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -975,6 +975,19 @@ h3 {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--text-primary);
+  margin-right: auto;
+}
+
+.project-year {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+  background: rgba(6, 182, 212, 0.1);
+  color: var(--accent-cyan);
+  white-space: nowrap;
+  font-weight: 500;
+  border: 1px solid rgba(6, 182, 212, 0.2);
 }
 
 .project-badge {
