@@ -88,7 +88,7 @@ def build_cv():
     # HEADER
     # ════════════════════════════════════════════
     story.append(Paragraph("Ali Mayladan", style_name))
-    story.append(Paragraph("Full-Stack Developer", style_headline))
+    story.append(Paragraph("AI-Assisted Developer", style_headline))
     story.append(Paragraph(
         "alimayladan.123@icloud.com  |  +961 81 930 412  |  Lebanon  |  "
         '<link href="https://alimln7.github.io" color="#06b6d4">alimln7.github.io</link>  |  '
@@ -105,10 +105,10 @@ def build_cv():
     # ════════════════════════════════════════════
     story.append(Paragraph("SUMMARY", style_section))
     story.append(Paragraph(
-        "Production-driven full-stack developer building enterprise-grade systems that solve real business "
-        "problems. Experienced in GPS fleet tracking platforms, AI-powered SaaS products, ERP systems, and "
-        "e-commerce solutions. Currently pursuing Computer Science at Antonine University while delivering "
-        "freelance and internship projects for clients across the USA, Iraq, and Lebanon.",
+        "AI-assisted developer who delivers real products for real clients using AI-powered development tools "
+        "(Claude Code, Cursor AI). I don't write code by hand — I direct AI to build what I envision, managing "
+        "requirements, product decisions, and client delivery. Currently pursuing Computer Science at Antonine "
+        "University while delivering freelance and internship projects across the USA, Iraq, and Lebanon.",
         style_summary
     ))
 
@@ -119,18 +119,18 @@ def build_cv():
 
     # ── Zin Solutions ──
     exp1 = []
-    exp1.append(Paragraph("Zin Solutions — Full-Stack Developer Intern", style_subsection))
+    exp1.append(Paragraph("Zin Solutions — Developer Intern (AI-Assisted)", style_subsection))
     exp1.append(Paragraph("USA (Remote)", style_role))
-    exp1.append(Paragraph("2024 — Present", style_date))
+    exp1.append(Paragraph("2025 — Present", style_date))
     exp1.append(Paragraph(
-        "Core contributor to LITE-RMIS, an enterprise risk management platform serving real clients.",
+        "Contributed to LITE-RMIS, an enterprise risk management platform, using AI tools (Claude Code) to generate all code.",
         style_body
     ))
     bullets1 = [
-        "Designed and implemented the workflow engine using QuickJS for server-side code execution",
-        "Architected the database schema across 177 models with 505+ API routes",
+        "Worked on the workflow engine using QuickJS for server-side code execution (via AI tools)",
+        "Contributed to database schema across 177 models with 505+ API routes",
         "Integrated Claude AI for intelligent automation and 59+ services",
-        "Served as the primary debugger, resolving complex full-stack system issues",
+        "Debugged system issues using AI-assisted analysis",
     ]
     for b in bullets1:
         exp1.append(Paragraph(f"<bullet>&bull;</bullet> {b}", style_bullet))
@@ -142,18 +142,18 @@ def build_cv():
 
     # ── GPSLvn ──
     exp2 = []
-    exp2.append(Paragraph("GPSLvn — Freelance Full-Stack Developer", style_subsection))
+    exp2.append(Paragraph("GPSLvn — Freelance Developer (AI-Assisted)", style_subsection))
     exp2.append(Paragraph("Iraq (Remote)", style_role))
     exp2.append(Paragraph("2025 — 2026", style_date))
     exp2.append(Paragraph(
-        "Solo-built a production GPS fleet tracking platform and a complete Fleet Management ERP system.",
+        "Delivered a production GPS fleet tracking platform and Fleet Management ERP using AI development tools.",
         style_body
     ))
     bullets2 = [
-        "Customized Traccar with 261 protocol decoders, 97 report types, and 150K+ tracked positions",
-        "Built a custom server health monitoring dashboard (CMC) with real-time WebSocket updates",
-        "Designed 19 ERP modules (HR, finance, inventory, warehouse, purchase) with full Arabic RTL support",
-        "Migrated data from legacy systems with bilingual Arabic/English interface",
+        "Directed AI tools to customize Traccar with 261 protocol decoders, 97 report types, 150K+ positions",
+        "Delivered a server health monitoring dashboard (CMC) with real-time WebSocket updates",
+        "Delivered 19 ERP modules (HR, finance, inventory, warehouse) with full Arabic RTL support",
+        "Managed client relationship, requirements gathering, and end-to-end product delivery",
     ]
     for b in bullets2:
         exp2.append(Paragraph(f"<bullet>&bull;</bullet> {b}", style_bullet))
@@ -165,12 +165,12 @@ def build_cv():
 
     # ── IDS ──
     exp3 = []
-    exp3.append(Paragraph("IDS — Full-Stack Developer Intern", style_subsection))
+    exp3.append(Paragraph("IDS — Developer Intern (AI-Assisted)", style_subsection))
     exp3.append(Paragraph("Lebanon", style_role))
     exp3.append(Paragraph("Dec 2025 — Feb 2026", style_date))
     exp3.append(Paragraph(
-        "Full-stack development internship focused on building and maintaining web applications "
-        "using modern development practices.",
+        "Development internship focused on building and maintaining web applications "
+        "using AI-assisted development tools and modern practices.",
         style_body
     ))
     story.append(KeepTogether(exp3))
@@ -185,8 +185,8 @@ def build_cv():
     proj1.append(Paragraph("BotLeb AI — Multi-tenant WhatsApp AI Chatbot Platform", style_subsection))
     proj1.append(Paragraph("Solo Project  |  2026", style_date))
     bullets_p1 = [
-        "Built a white-label SaaS platform for businesses to deploy AI chatbots on WhatsApp",
-        "Three-tier multi-tenancy (Super Admin / Admin / Client) with Claude AI integration",
+        "Delivered a white-label SaaS platform for businesses to deploy AI chatbots on WhatsApp",
+        "Three-tier multi-tenancy with Claude AI integration — all code generated via AI tools",
         "Lead scoring, broadcast campaigns, RAG knowledge base, and content safety system",
     ]
     for b in bullets_p1:
@@ -202,9 +202,9 @@ def build_cv():
     proj2.append(Paragraph("Petronox — Corporate Website for Lubricant Manufacturer", style_subsection))
     proj2.append(Paragraph("Freelance  |  2026", style_date))
     bullets_p2 = [
-        "Full-stack corporate website with bilingual Arabic/English support and RTL layout",
+        "Corporate website with bilingual Arabic/English support and RTL layout",
         "Smart Oil Finder tool, product catalog with ASTM standards, IRI certification display",
-        "SPA architecture with custom router, Python backend, and SQLite database",
+        "Delivered using AI development tools — managed client requirements and product delivery",
     ]
     for b in bullets_p2:
         proj2.append(Paragraph(f"<bullet>&bull;</bullet> {b}", style_bullet))
@@ -219,8 +219,8 @@ def build_cv():
     proj3.append(Paragraph("E-commerce Stores — Shopify Storefronts", style_subsection))
     proj3.append(Paragraph("Freelance  |  2024", style_date))
     bullets_p3 = [
-        "Custom Shopify storefronts for Ghazi Beauty (contact lenses) and Rave Spirits (accessories)",
-        "Custom Liquid theme development with mobile-first responsive design",
+        "Delivered Shopify storefronts for Ghazi Beauty (contact lenses) and Rave Spirits (accessories)",
+        "Theme customization and WhatsApp integration done using AI coding tools",
     ]
     for b in bullets_p3:
         proj3.append(Paragraph(f"<bullet>&bull;</bullet> {b}", style_bullet))
@@ -235,7 +235,7 @@ def build_cv():
     proj4.append(Paragraph("Home Automation — IoT System", style_subsection))
     proj4.append(Paragraph("Personal  |  2025", style_date))
     proj4.append(Paragraph(
-        "Designed and built a home automation system using Odroid hardware with custom IoT integrations.",
+        "Home automation system using Odroid hardware — set up and configured with AI assistance.",
         style_body
     ))
     story.append(KeepTogether(proj4))
@@ -256,12 +256,12 @@ def build_cv():
     story.append(Paragraph("SKILLS", style_section))
 
     skills_data = [
-        ("<b>Frontend:</b>", "React, Next.js, TypeScript, Tailwind CSS, Framer Motion, HTML5, CSS3"),
-        ("<b>Backend:</b>", "Node.js, Java, Python, Express"),
+        ("<b>AI Development Tools:</b>", "Claude Code, Cursor AI — primary development workflow"),
+        ("<b>Technologies Delivered With (via AI):</b>", "React, Next.js, Node.js, Python, Java, TypeScript"),
         ("<b>Database:</b>", "PostgreSQL, SQLite, MariaDB, TimescaleDB, Redis, Prisma"),
         ("<b>AI &amp; Automation:</b>", "Claude AI, OpenAI, LangGraph, RAG, WhatsApp Cloud API"),
-        ("<b>DevOps &amp; Tools:</b>", "Docker, AWS S3, Nginx, PM2, Git, Claude Code, Cursor AI"),
-        ("<b>Other:</b>", "Shopify/Liquid, ERPNext/Frappe, IoT/Robotics, Adobe Suite, Graphic Design"),
+        ("<b>DevOps &amp; Tools:</b>", "Docker, AWS S3, Nginx, PM2, Git"),
+        ("<b>Other:</b>", "Shopify/Liquid, ERPNext/Frappe, IoT, Adobe Suite, Graphic Design"),
     ]
     for label, value in skills_data:
         story.append(Paragraph(f"{label} {value}", style_body))
